@@ -41,7 +41,7 @@ def main():
     checksum = 0
     for i in range(len(disk)):
         if disk[i] == '.':
-            break
+            continue
         checksum += disk[i] * i
 
     print(checksum)
