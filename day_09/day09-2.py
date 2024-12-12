@@ -40,6 +40,8 @@ for _ in range(0, len(disk2)):
     located = False
     for _ in range(reverse_i - 1):
         free_space = 0
+        if ii >= reverse_i:
+            break
         if disk2[ii] == '.':
             found_at = ii
             free_space += 1
