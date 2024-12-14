@@ -1,3 +1,4 @@
 {
-  "cSpell.ignoreWords": ["BBCC", "BBCD", "EEEC", "xmas", "xmul"]
+  "cSpell.ignoreWords": ["BBCC", "BBCD", "EEEC", "xmas", "xmul"],
+  "cSpell.ignorePaths": ["**/*.txt"]
 }
